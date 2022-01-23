@@ -1,5 +1,32 @@
+### react ###
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
 
-node_modules/.cache/babel-loader/eaca7505f0e07abad9f6e519ff31e3cb.json
-node_modules/.cache/babel-loader/a51c30d7434b460ad1c4bd0661f839d0.json
-node_modules/.cache/babel-loader/3381044e6a653fb970cf4249aeddedcf.json
+# Dependency directories
+node_modules/
+jspm_packages/
+bower_components
+
+*.sublime*
+
+psd
+thumb
+sketch
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
 .eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
